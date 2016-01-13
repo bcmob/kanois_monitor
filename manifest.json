@@ -1,0 +1,20 @@
+ {
+  "manifest_version": 2,
+  "name": "Kano.is",
+  "version": "1.0",
+  
+  "icons": {
+    "48": "Spider-48.png"
+  },
+  "permissions": [
+    "https://kano.is/*",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_title": "Kano.is",
+    "default_icon": "Spider-48.png",
+    "default_popup": "main.html"
+  }
+	
+}
